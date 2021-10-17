@@ -6,7 +6,7 @@ Programa pque simula um player de músicas, com as funções de adicionar, tocar
 
 ## Enunciado :bookmark_tabs:
 
-Você está construindo um aplicativo de música e precisa uma classe MusicPlayer, com a qual deve armazenar os nomes das músicas em um Array de Strings. O Array já está definido no código de modelo a ser seguido. <br><br>
+Você está construindo um aplicativo de música e precisa uma classe MusicPlayer, com a qual deve armazenar os nomes das músicas em um Array de Strings. O Array já está definido no código de modelo a ser seguido. <br>
 
 O player deve ter as seguines funções: <br>
 **add**: Adiciona o nome de uma música recebida como argumento ao Array. <br>
@@ -19,7 +19,7 @@ O player deve ter as seguines funções: <br>
 `}` <br>
 
 `fun main(args: Array<String>) {` <br>
-  `val m = MusicPlayer()` <br><br>
+  `val m = MusicPlayer()` <br>
 
   `while(true) {` <br>
     `var input = readLine()!!` <br>

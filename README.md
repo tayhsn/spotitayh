@@ -6,30 +6,30 @@ Programa pque simula um player de músicas, com as funções de adicionar, tocar
 
 ## Enunciado :bookmark_tabs:
 
-Você está construindo um aplicativo de música e precisa uma classe MusicPlayer, com a qual deve armazenar os nomes das músicas em um Array de Strings. O Array já está definido no código de modelo a ser seguido.
+Você está construindo um aplicativo de música e precisa uma classe MusicPlayer, com a qual deve armazenar os nomes das músicas em um Array de Strings. O Array já está definido no código de modelo a ser seguido. <br><br>
 
-O player deve ter as seguines funções:
-**add**: Adiciona o nome de uma música recebida como argumento ao Array.
-**show**: Mostra todas as músicas em linhas separadas.
-**play**: retorna o nome da primeira música da lista .
+O player deve ter as seguines funções: <br>
+**add**: Adiciona o nome de uma música recebida como argumento ao Array. <br>
+**show**: Mostra todas as músicas em linhas separadas. <br>
+**play**: retorna o nome da primeira música da lista .<br>
 
+`class MusicPlayer {` <br>
+  `private var songs: Array<String> = arrayOf()` <br>
+      `//COMPLETE AQUI` <br>
+`}` <br>
 
-`class MusicPlayer {`
-  `private var songs: Array<String> = arrayOf()`
-      `//COMPLETE AQUI  
-}`
-`fun main(args: Array<String>) {`
-  `val m = MusicPlayer()`
+`fun main(args: Array<String>) {` <br>
+  `val m = MusicPlayer()` <br><br>
 
-  `while(true) {`
-    `var input = readLine()!!`
-    `if(input == "stop") {`
-      `break`
-    `}`
-    `m.add(input)`
-  `}`
-  `m.show()`
-  `m.play()`
+  `while(true) {` <br>
+    `var input = readLine()!!` <br>
+    `if(input == "stop") {` <br>
+      `break` <br>
+    `}` <br>
+    `m.add(input)` <br>
+  `}` <br>
+  `m.show()` <br>
+  `m.play()` <br>
 `}`
 
 <hr>
